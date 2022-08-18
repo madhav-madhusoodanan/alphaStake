@@ -1288,29 +1288,14 @@ footer {
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .hero {
     height: 940px;
+    width: 100vw;
     overflow: hidden;
-}
-
-.hero-text {
-    font-size: 96px;
-    font-weight: 800;
-    font-family: "Work Sans", sans-serif;
-    color: white;
-    transform: translateY(180px);
-    z-index: 1;
-    line-height: 110px;
-}
-.hero-text-transparent {
-    font-size: 96px;
-    font-weight: 800;
-    font-family: "Work Sans", sans-serif;
-    color: black;
-    text-shadow: -3px -3px white, -3px 3px white, 3px 3px white, 3px -3px white;
+    position: relative;
 }
 
 .about-us-box {
@@ -1328,4 +1313,19 @@ footer {
     color: white;
     text-align: center;
     font-size: 24px;
+}
+.decentralized {
+    height: 96px;
+}
+
+@keyframes example {
+    from {transform: translateX(-1680px);}
+    to {transform: translateX(0px);}
+  }
+
+.hero-text {
+    height: 218px;
+    position: absolute;
+    top: 140px;
+    animation: example 15s linear -5s infinite reverse forwards;
 }
