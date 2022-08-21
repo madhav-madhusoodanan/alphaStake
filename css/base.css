@@ -1341,5 +1341,5 @@ footer {
     height: 50px;
     position: absolute;
     top: 140px;
-    animation: example 5s linear -5s infinite reverse forwards;
+    animation: example 10s linear -5s infinite reverse forwards;
 }
