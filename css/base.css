@@ -139,6 +139,7 @@ header.base_header {
     padding-top: 12px;
     padding-bottom: 12px;
     background: #fff;
+    background-color: #000;
 }
 
 .header-outer {
@@ -179,13 +180,13 @@ header.base_header {
 }
 
 .header_logo img {
-    width: 100px;
-    height: 60px;
+    width: 336px;
+    height: 38px;
     object-fit: cover;
 }
 
 a.nav__link {
-    color: #717171;
+    color: #9c9b9b;
     font-weight: 300;
 }
 
