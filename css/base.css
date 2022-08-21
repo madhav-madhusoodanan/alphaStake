@@ -1319,12 +1319,12 @@ footer {
 }
 
 @keyframes example {
-    from {transform: translateX(-1680px);}
+    from {transform: translateX(-2330px);}
     to {transform: translateX(0px);}
   }
 
 .hero-text {
-    height: 218px;
+    height: 113px;
     position: absolute;
     top: 140px;
     animation: example 15s linear -5s infinite reverse forwards;
