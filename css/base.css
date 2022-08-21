@@ -1318,14 +1318,28 @@ footer {
     height: 96px;
 }
 
+@media all and (min-width: 768px) {
+    @keyframes example1 {
+        from {transform: translateX(-2330px);}
+        to {transform: translateX(0px);}
+      }
+    
+    .hero-text {
+        height: 113px;
+        position: absolute;
+        top: 140px;
+        animation: example1 15s linear -5s infinite reverse forwards;
+    }
+}
+
 @keyframes example {
-    from {transform: translateX(-2330px);}
+    from {transform: translateX(-1034px);}
     to {transform: translateX(0px);}
   }
 
 .hero-text {
-    height: 113px;
+    height: 50px;
     position: absolute;
     top: 140px;
-    animation: example 15s linear -5s infinite reverse forwards;
+    animation: example 5s linear -5s infinite reverse forwards;
 }
