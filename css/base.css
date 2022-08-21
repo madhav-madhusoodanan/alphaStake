@@ -231,7 +231,7 @@ a.nav__link {
 
 section.main {
     position: relative;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 40px;
     height: auto !important;
 }
@@ -1284,6 +1284,7 @@ footer {
 
 /* footer end */
 .tezos-bg {
+    position: absolute;
     background-image: url("../assets/hero.png");
     background-size: cover;
     height: 100%;
