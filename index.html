@@ -1,654 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML PAGE</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> HTML PAGE </title>
+        <!--  CSS BEGEIN -->
+        <link rel="stylesheet" href="css/base.css" />
+        <!--  CSS END -->
 
-    <!--  CSS BEGEIN -->
-    <link rel="stylesheet" href="css/base.css">
-    <!--  CSS END -->
+        <!-- jquery CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css"
+        />
+        <!-- jquery CDN -->
+    </head>
 
-    <!-- jquery CDN-->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css'>
-    <link rel='stylesheet'
-        href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css'>
-    <!-- jquery CDN -->
+    <body>
+        <header class="base_header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header_c">
+                        <div class="header_logo">
+                            <img
+                                src="assets/logo.png"
+                                alt=""
+                                class="header_logo"
+                            />
+                        </div>
+
+                        <nav class="header-navigation hidden">
+                            <ul>
+                                <li class="nav_l">
+                                    <a class="nav__link" href="#large-header"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav_l">
+                                    <a class="nav__link" href="#about">About</a>
+                                </li>
+                                <li class="nav_l">
+                                    <a class="nav__link" href="#portfolio"
+                                        >Portfolio</a
+                                    >
+                                </li>
+                                <li class="nav_l">
+                                    <a class="nav__link" href="#networks"
+                                        >Network</a
+                                    >
+                                </li>
+                                <li class="nav_l">
+                                    <a class="nav__link" href="#community"
+                                        >Community</a
+                                    >
+                                </li>
+                                <li class="nav_l">
+                                    <a class="nav__link" href="#team">Team</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="large-header" class="full main">
+            <div class="hero tezos-bg">
+                <img src="./assets/herotext.png" class="hero-text" />
+                <div class="about-us-box">
+                    <p class="about-us">About us</p>
+                    <svg
+                        width="17"
+                        height="10"
+                        viewBox="0 0 17 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M2.125 1.625L8.5 8.375L14.875 1.625"
+                            stroke="white"
+                            stroke-width="2.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="full about">
+            <div class="container">
+                <div class="about_c">
+                    <h2><b>About</b> AlphaStake</h2>
+
+                    <span
+                        >Alphastake is one of the most secure POS validators in
+                        the DeFi space. We truly understand the concerns
+                        regarding staking assets on your own since it can be
+                        quite difficult, and risky. To avert this, AlphaStake
+                        offers you a safe and simple infrastructure to earn
+                        passive income on your cryptocurrencies.
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="full portfolio">
+            <div class="container">
+                <div class="portfolio_c">
+                    <div class="portfolio_header">
+                        <div class="c">
+                            <h2 class="section__title">
+                                <b>How to</b> start on AlphaStake
+                            </h2>
+                            <span class="_section">
+                                <ol type="1">
+                                    <li>
+                                        1. Connect to the staking user interface.
+                                    </li>
+                                    <li>
+                                        2. Pick a crypto asset, and specify the
+                                        amount.
+                                    </li>
+                                    <li>
+                                        3. Stake and earn rewards automatically,
+                                        without giving up custody of your
+                                        assets.
+                                    </li>
+                                </ol>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="full about">
+            <div class="container">
+                <div class="about_c">
+                    <h2><b>Features</b></h2>
+
+                    <span>
+                        <h3>Diverse Staking Options</h3>
+                    </span>
+                    <span>
+                        Alphastake gives users access to different types of
+                        nodes on the different POS chains including eth 2.0,
+                        sol, and tezos. Users can also choose from a variety of
+                        lockup options that best suit their staking needs.</span
+                    >
+                    <span>
+                        <h3>Extra Security Measures</h3>
+                    </span>
+                    <span>
+                        Validator nodes are the underlying security for POS
+                        chains. This is why we take extra measures by using only
+                        the most recent, secure and reliable hardware equipment
+                        for running our nodes to prevent hacking or system
+                        downtime, ensuring security for both the network and
+                        user’s staked assets.
+                    </span>
+                    <span>
+                        <h3>Guaranteed Returns</h3>
+                    </span>
+                    <span>
+                        Apart from the security of our nodes, we have also made
+                        moves to ensure users make guaranteed returns when they
+                        stake with us, regardless of the current state of the
+                        crypto market, by employing the services of leading fund
+                        administrators and accounting agencies in the space.
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="full portfolio">
+            <div class="container">
+                <div class="portfolio_c">
+                    <div class="portfolio_header">
+                        <div class="c">
+                            <h2 class="section__title"><b>TEAM</b></h2>
+                            <span class="_section">
+                                The AlphaStake team is made up of individuals
+                                with proven track records, insightful experience
+                                working with other DeFi projects, and are well
+                                equipped to deal with scalability issues,
+                                security threats, and accounting/funding
+                                challenges.
+                                <br style="margin-top: 1rem" />
+                                Together we ensure a safe infrastructure for the
+                                maximization of your liquidity.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="full about">
+            <div class="container">
+                <div class="about_c">
+                    <h2><b>Frequently Asked Questions</b></h2>
+
+                    <span>
+                        <h3>What is proof of work and proof of stake?</h3>
+                    </span>
+                    <span>
+                        The reason Bitcoin consumes so much energy is its
+                        application of the Proof of Work consensus mechanism,
+                        which is how it protects its network and guarantees
+                        decentralization. In other words, the purpose of the
+                        consensus mechanism is to ensure all bitcoin miners
+                        agree on a legitimate copy of transactions, eliminating
+                        the chances that wrong or dubious transactions will be
+                        recorded and also guaranteeing no one party has sole
+                        control of the network.
+                    </span>
+                    <span>
+                        To do this, miners have to compete by solving complex
+                        mathematical problems and the one who reaches the
+                        correct answer first is rewarded with extra bitcoin.
+                        This is a very complex and energy-consuming process as
+                        the miners who didn't get the answer have, anyway,
+                        consumed a lot of electrical power.
+                    </span>
+                    <span>
+                        But with the creation of Peercoin (the first proof of
+                        stake blockchain) in 2012, the world has seen a shift to
+                        a cleaner method of consensus on blockchain networks.
+                    </span>
+                    <span>
+                        Proof of stake chains achieve consensus by requiring
+                        that miners stake a required amount (e.g. 32 eth for
+                        Ethereum 2.0) of cryptocurrency for a chance to validate
+                        transactions on the network. The higher cryptocurrency
+                        staked, the higher their chances and the more they get
+                        rewarded with additional cryptocurrency.
+                    </span>
+                    <span>
+                        This discourages malicious behavior on the part of
+                        miners, as miners can easily lose their stake (slashing)
+                        if they validate erroneous transactions.
+                    </span>
+                    <span>
+                        <h3>Which cryptocurrency will earn staking rewards?</h3>
+                    </span>
+                    <span>
+                        Any cryptocurrency/coin whose native blockchain uses the Proof of Stake consensus mechanism can earn staking rewards, but users will have to settle for our list of available cryptocurrencies. As AlphaStake continues to grow, we will add more cryptocurrencies to the list.  
+                    </span>
+                    <span>
+                        <h3>What determines my staking rewards?</h3>
+                    </span>
+                    <span>
+                        When users lock their cryptocurrency in any of our staking pools, they are given access to passive income rewards, which are calculated by:<br />
+                        1. Annual percentage yield (APY) of that chain. <br />
+                        2. The amount of cryptocurrency being staked.<br />
+                        3. The duration of the staking period.
+                    </span>
+                </div>
+            </div>
+        </section>
 
 
-</head>
-
-<body>
-
-
-    <header class="base_header">
-        <div class="container">
-            <div class="header-inner">
-                <div class="header_c">
-
-                    <div class="header_logo">
-                        <img src="assets/logo.png" alt="" class="header_logo">
+        <footer>
+            <div class="container">
+                <div class="footer_c">
+                    <div class="logo_footer">
+                        <img src="assets/svg/footer_logo.png" alt="" />
+                        <div>
+                            <span
+                                >Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Architecto corporis porro
+                                ipsa</span
+                            >
+                        </div>
                     </div>
 
-                    <nav class="header-navigation hidden">
-
+                    <div class="logo_col">
                         <ul>
-                            <li class="nav_l"><a class="nav__link" href="#large-header">Home</a></li>
-                            <li class="nav_l"><a class="nav__link" href="#about">About</a></li>
-                            <li class="nav_l"> <a class="nav__link" href="#portfolio">Portfolio</a></li>
-                            <li class="nav_l"> <a class="nav__link" href="#networks">Network</a></li>
-                            <li class="nav_l"><a class="nav__link" href="#community">Community</a></li>
-                            <li class="nav_l"><a class="nav__link" href="#team">Team</a></li>
+                            <li><a href=""> About </a></li>
+                            <li><a href=""> Portfolio </a></li>
+                            <li><a href=""> Network </a></li>
+                            <li><a href=""> Community </a></li>
+                            <li><a href=""> Team </a></li>
                         </ul>
-
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <section id="large-header" class="full main">
-        <div class="hero tezos-bg">
-            <img src="./assets/herotext.png" class="hero-text"/>
-            <div class="about-us-box">
-                <p class="about-us">
-                    About us
-                </p>
-                <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2.125 1.625L8.5 8.375L14.875 1.625" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg> 
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="full about">
-
-        <div class="container">
-            <div class="about_c">
-                <h2><b>About</b> AlphaStake </h2>
-
-                <span>Alphastake is one of the most secure POS validators in the DeFi space. We truly understand the concerns regarding staking assets on your own since it can be quite difficult, and risky. To avert this, AlphaStake offers you a safe and simple infrastructure to earn passive income on your cryptocurrencies.
-                </span>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="portfolio" class="full portfolio">
-
-        <div class="container">
-            <div class="portfolio_c">
-
-                <div class="portfolio_header">
-
-                    <div class="c">
-                        <h2 class="section__title"> <b>Stake</b> with Us</h2>
-                        <span class="_section">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vero exercitationem odit
-                            deserunt. Corrupti officia ab esse nobis a aliquam labore nulla fuga? Debitis aliquid
-                            quisquam quasi incidunt, temporibus velit!
-                        </span>
-
-                    </div>
-
-                </div>
-
-                <div class="portfolio_body">
-                    <div class="portfolio_gird_list">
-
-                        <div class="portfolio_gird">
-
-                            <div class="portfolio_gird__header">
-
-                                <div class="portfolio_gird__img">
-                                    <img width="64" height="64" src="assets/networks/ethereum.svg" alt="ethereum"
-                                        loading="lazy">
-                                </div>
-
-                                <div class="portfolio_gird__title">
-                                    <span>Ethereum</span>
-                                    <span class="small_title">ETH</span>
-                                </div>
-
-                                <div class="itemhoverText">
-                                    <span> <b>Ethereum</b> is lorem ipsum dolar elit </span>
-                                </div>
-
-
-
-                            </div>
-
-                            <div class="portfolio_gird__body">
-
-                                <div class="portfolio_gird__body_tabs">
-                                    <span><b>$132B</b></span>
-                                    <span>Market Cap</span>
-                                </div>
-
-                                <hr>
-
-                                <div class="portfolio_gird__body_tabs">
-                                    <span><b class="green"> 3.9%</b></span>
-                                    <span>Market Cap</span>
-                                </div>
-
-                            </div>
-
-                            <div class="portfolio_gird__footer">
-                                <span class="flex">
-                                    <a class="section__link visually-hidden" href="">Stake now</a>
-                                    <span class="link__title">Stake now</span>
-                                    <div class="icon">
-                                        <div class="svg">
-                                            <svg width="1em" height="1em" viewBox="0 0 14 12" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9.31 1.002a.75.75 0 1 0-1.12.996l1.12-.996ZM12.75 6l.56.498a.75.75 0 0 0 0-.996L12.75 6Zm-4.56 4.002a.75.75 0 0 0 1.12.996l-1.12-.996ZM1.25 5.25a.75.75 0 0 0 0 1.5v-1.5Zm6.94-3.252 4 4.5 1.12-.996-4-4.5-1.12.996Zm4 3.504-4 4.5 1.12.996 4-4.5-1.12-.996Zm.56-.252H1.25v1.5h11.5v-1.5Z"
-                                                    fill="currentColor"></path>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                        <div class="portfolio_gird">
-
-                            <div class="portfolio_gird__header">
-
-                                <div class="portfolio_gird__img">
-                                    <img width="64" height="64" src="assets/networks/ethereum.svg" alt="ethereum"
-                                        loading="lazy">
-                                </div>
-
-                                <div class="portfolio_gird__title">
-                                    <span>Ethereum</span>
-                                    <span class="small_title">ETH</span>
-                                </div>
-
-                                <div class="itemhoverText">
-                                    <span> <b>Ethereum</b> is lorem ipsum dolar elit </span>
-                                </div>
-
-
-
-                            </div>
-
-                            <div class="portfolio_gird__body">
-
-                                <div class="portfolio_gird__body_tabs">
-                                    <span><b>$132B</b></span>
-                                    <span>Market Cap</span>
-                                </div>
-
-                                <hr>
-
-                                <div class="portfolio_gird__body_tabs">
-                                    <span><b class="green"> 3.9%</b></span>
-                                    <span>Market Cap</span>
-                                </div>
-
-                            </div>
-
-                            <div class="portfolio_gird__footer">
-                                <span class="flex">
-                                    <a class="section__link visually-hidden" href="">Stake now</a>
-                                    <span class="link__title">Stake now</span>
-                                    <div class="icon">
-                                        <div class="svg">
-                                            <svg width="1em" height="1em" viewBox="0 0 14 12" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9.31 1.002a.75.75 0 1 0-1.12.996l1.12-.996ZM12.75 6l.56.498a.75.75 0 0 0 0-.996L12.75 6Zm-4.56 4.002a.75.75 0 0 0 1.12.996l-1.12-.996ZM1.25 5.25a.75.75 0 0 0 0 1.5v-1.5Zm6.94-3.252 4 4.5 1.12-.996-4-4.5-1.12.996Zm4 3.504-4 4.5 1.12.996 4-4.5-1.12-.996Zm.56-.252H1.25v1.5h11.5v-1.5Z"
-                                                    fill="currentColor"></path>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                        <div class="portfolio_gird">
-
-                            <div class="portfolio_gird__header">
-
-                                <div class="portfolio_gird__img">
-                                    <img width="64" height="64" src="assets/networks/ethereum.svg" alt="ethereum"
-                                        loading="lazy">
-                                </div>
-
-                                <div class="portfolio_gird__title">
-                                    <span>Ethereum</span>
-                                    <span class="small_title">ETH</span>
-                                </div>
-
-                                <div class="itemhoverText">
-                                    <span> <b>Ethereum</b> is lorem ipsum dolar elit </span>
-                                </div>
-
-
-
-                            </div>
-
-                            <div class="portfolio_gird__body">
-
-                                <div class="portfolio_gird__body_tabs">
-                                    <span><b>$132B</b></span>
-                                    <span>Market Cap</span>
-                                </div>
-
-                                <hr>
-
-                                <div class="portfolio_gird__body_tabs">
-                                    <span><b class="green"> 3.9%</b></span>
-                                    <span>Market Cap</span>
-                                </div>
-
-                            </div>
-
-                            <div class="portfolio_gird__footer">
-                                <span class="flex">
-                                    <a class="section__link visually-hidden" href="">Stake now</a>
-                                    <span class="link__title">Stake now</span>
-                                    <div class="icon">
-                                        <div class="svg">
-                                            <svg width="1em" height="1em" viewBox="0 0 14 12" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M9.31 1.002a.75.75 0 1 0-1.12.996l1.12-.996ZM12.75 6l.56.498a.75.75 0 0 0 0-.996L12.75 6Zm-4.56 4.002a.75.75 0 0 0 1.12.996l-1.12-.996ZM1.25 5.25a.75.75 0 0 0 0 1.5v-1.5Zm6.94-3.252 4 4.5 1.12-.996-4-4.5-1.12.996Zm4 3.504-4 4.5 1.12.996 4-4.5-1.12-.996Zm.56-.252H1.25v1.5h11.5v-1.5Z"
-                                                    fill="currentColor"></path>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="networks" class="full network">
-
-        <div class="container">
-
-            <div class="network_c">
-
-                <div class="network_header">
-                    <div class="c">
-                        <h2 class="section__title"> Our <b>Network</b> </h2>
-                        <div class="line" style="padding: 0;"></div>
-
-                        <div class="branch_list">
-                            <div class="owl-carousel owl-theme">
-                                <div class="branch_item">
-                                    <img src="https://via.placeholder.com/200/fff" alt="">
-                                </div>
-
-                                <div class="branch_item">
-                                    <img src="https://via.placeholder.com/200/fff" alt="">
-                                </div>
-
-                                <div class="branch_item">
-                                    <img src="https://via.placeholder.com/200/fff" alt="">
-                                </div>
-
-                                <div class="branch_item">
-                                    <img src="https://via.placeholder.com/200/fff" alt="">
-                                </div>
-
-                                <div class="branch_item">
-                                    <img src="https://via.placeholder.com/200/fff" alt="">
-                                </div>
-
-                                <div class="branch_item">
-                                    <img src="https://via.placeholder.com/200/fff" alt="">
-                                </div>
-
-                                <div class="branch_item">
-                                    <img src="https://via.placeholder.com/200/fff" alt="">
-                                </div>
-
-                            </div>
-                        </div>
                     </div>
                 </div>
 
-
-                <div class="network_body">
-
-                    <div class="network_grid_list">
-
-                        <div class="network_grid">
-
-                            <div class="network_grid_header">
-
-                                <div class="network_grid_title">
-                                    <span> Tezos </span>
-                                    <span class="small_title"> XTZ </span>
-                                </div>
-
-                                <div class="network_grid_header_img">
-                                    <img width="64" height="64" src="assets/networks/tezos.svg" alt="ethereum"
-                                        loading="lazy">
-                                </div>
-
-                            </div>
-
-                            <div class="network_grid_body">
-
-                                <div class="c">
-                                    <span><b class="color">Lorem</b>, ipsum dolor sit amet consectetur adipisicing elit. Maiores illum error
-                                        aspernatur sint in doloribus repellat voluptate.</span>
-
-                                    <span>Non modi nihil inventore
-                                        minima, distinctio dolores beatae consectetur iure quos ea repellendus?</span>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="network_grid">
-
-                            <div class="network_grid_header">
-
-                                <div class="network_grid_title">
-                                    <span> Tezos </span>
-                                    <span class="small_title"> XTZ </span>
-                                </div>
-
-                                <div class="network_grid_header_img">
-                                    <img width="64" height="64" src="assets/networks/tezos.svg" alt="ethereum"
-                                        loading="lazy">
-                                </div>
-
-                            </div>
-
-                            <div class="network_grid_body">
-
-                                <div class="c">
-                                    <span><b class="color">Lorem</b>, ipsum dolor sit amet consectetur adipisicing elit. Maiores illum error
-                                        aspernatur sint in doloribus repellat voluptate.</span>
-
-                                    <span>Non modi nihil inventore
-                                        minima, distinctio dolores beatae consectetur iure quos ea repellendus?</span>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="network_grid">
-
-                            <div class="network_grid_header">
-
-                                <div class="network_grid_title">
-                                    <span> Tezos </span>
-                                    <span class="small_title"> XTZ </span>
-                                </div>
-
-                                <div class="network_grid_header_img">
-                                    <img width="64" height="64" src="assets/networks/tezos.svg" alt="ethereum"
-                                        loading="lazy">
-                                </div>
-
-                            </div>
-
-                            <div class="network_grid_body">
-
-                                <div class="c">
-                                    <span><b class="color">Lorem</b>, ipsum dolor sit amet consectetur adipisicing elit. Maiores illum error
-                                        aspernatur sint in doloribus repellat voluptate.</span>
-
-                                    <span>Non modi nihil inventore
-                                        minima, distinctio dolores beatae consectetur iure quos ea repellendus?</span>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        
-
-
-
-
-
-
+                <div class="copyright-wrapper">
+                    <div class="text-copyright">
+                        AlphaStake, Inc | Copyright ©2022 All Rights Reserved
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <section id="community" class="community">
+        <!-- partial -->
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/canvas.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
 
-        <div class="container">
-
-            <div class="community_c">
-
-                <div class="section__title center">
-
-                    <h2 class="section__title"> Join the <b>community</b> now </h2>
-
-                    <span class="section_center">
-                        <b class="color">Join our community, </b>
-                        learn and share knowledge. Keep up the pace with the new technological era
-                        that is upon us.
-
-                    </span>
-
-                </div>
-
-                <div class="community_grid_list">
-
-                    <div class="community_grid">
-                        <div class="c">
-                            <div class="l">
-                                <div class="tab_img">
-                                    <img src="assets/svg/telegram.svg" alt="telegram">
-                                </div>
-                                <div class="tab">
-                                    <span>Telegram</span>
-                                </div>
-                            </div>
-                            <div class="r">
-                                <a href="https://t.me/burayalink" target="_blank" class="join_btn"><span>Join
-                                        Us</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="community_grid">
-                        <div class="c">
-                            <div class="l">
-                                <div class="tab_img">
-                                    <img src="assets/svg/discord.svg" alt="telegram">
-                                </div>
-                                <div class="tab">
-                                    <span>Discord</span>
-                                </div>
-                            </div>
-                            <div class="r">
-                                <a href="https://discord.gg/burayalink" target="_blank" class="join_btn"><span>Join
-                                        Us</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-
-        </div>
-    </section>
-
-    <section id="team" class="team">
-        <div class="container">
-
-            <div class="team_c">
-
-                <div class="section__title center">
-
-                    <h2 class="section__title"> Our <b>Team</b> </h2>
-
-                    <span class="section_center">
-                        <span>Brought together by <b class="color">crypto</b> with only one goal: to bring crypto to
-                            more people We're on the
-                            lookout for talented members. Reach out to find out more.</span>
-                    </span>
-
-                </div>
-
-                <div class="team_grid_list">
-                    <div class="team_grid">
-                        <div class="text">
-                            <div class="name">
-                                <span>Nol Honig</span>
-                            </div>
-                        </div>
-                        <img src="assets/team/team_1.jpeg" class="card_cover" alt="">
-                        <div class="card_overlay"></div>
-                    </div>
-
-                    <div class="team_grid">
-                        <div class="text">
-                            <div class="name">
-                                <span> Sarah Beth Morgan </span>
-                            </div>
-                        </div>
-                        <img src="assets/team/team_2.jpeg" class="card_cover" alt="">
-                        <div class="card_overlay blue"></div>
-                    </div>
-
-                    <div class="team_grid">
-                        <div class="text">
-                            <div class="name">
-                                <span>Zack Lovatt</span>
-                            </div>
-                        </div>
-                        <img src="assets/team/team_3.jpeg" class="card_cover" alt="">
-                        <div class="card_overlay green"></div>
-                    </div>
-
-                    <div class="team_grid">
-                        <div class="text">
-                            <div class="name">
-                                <span> Lovatt Morgan </span>
-                            </div>
-                        </div>
-                        <img src="assets/team/card_4.png" class="card_cover" alt="">
-                        <div class="card_overlay blue"></div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-
-            <div class="footer_c">
-
-                <div class="logo_footer">
-                    <img src="assets/svg/footer_logo.png" alt="">
-                    <div>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto corporis porro
-                            ipsa</span>
-                    </div>
-                </div>
-
-                <div class="logo_col">
-                    <ul>
-                        <li> <a href=""> About </a> </li>
-                        <li> <a href=""> Portfolio </a> </li>
-                        <li> <a href=""> Network </a> </li>
-                        <li> <a href=""> Community </a> </li>
-                        <li> <a href=""> Team </a> </li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="copyright-wrapper">
-                <div class="text-copyright">AlphaStake, Inc | Copyright ©2022 All Rights Reserved</div>
-            </div>
-
-        </div>
-    </footer>
-
-    <!-- partial -->
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/canvas.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js'></script>
-
-
-    <script>
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('.base_header').addClass('header-outer');
-            } else {
-                $('.base_header').removeClass('header-outer');
-            }
-        });
-
-    </script>
-
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            autoplay: false,
-            autoplayTimeout: 5000,
-            autoplayHoverPause: false,
-            stagePadding: 15,
-            margin: 10,
-            nav: true,
-            navText: ['<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" ratio="1"> <polyline fill="none" stroke="#000" stroke-width="1.03" points="13 16 7 10 13 4"></polyline></svg></span>', '<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"> <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" ratio="1"> <polyline fill="none" stroke="#000" stroke-width="1.03" points="7 4 13 10 7 16"></polyline></svg></span>'],
-            responsive: {
-                0: {
-                    items: 1,
-                    loop: true
-
-                },
-                640: {
-                    items: 2,
-                    loop: true
-                },
-                960: {
-                    items: 3,
-                    loop: true
-                },
-                1200: {
-                    items: 4,
-                    loop: true
+        <script>
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $(".base_header").addClass("header-outer")
+                } else {
+                    $(".base_header").removeClass("header-outer")
                 }
+            })
+        </script>
 
-            }
-        })
-    </script>
-
-
-</body>
-
+        <script>
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: false,
+                stagePadding: 15,
+                margin: 10,
+                nav: true,
+                navText: [
+                    '<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" ratio="1"> <polyline fill="none" stroke="#000" stroke-width="1.03" points="13 16 7 10 13 4"></polyline></svg></span>',
+                    '<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"> <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" ratio="1"> <polyline fill="none" stroke="#000" stroke-width="1.03" points="7 4 13 10 7 16"></polyline></svg></span>',
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                        loop: true,
+                    },
+                    640: {
+                        items: 2,
+                        loop: true,
+                    },
+                    960: {
+                        items: 3,
+                        loop: true,
+                    },
+                    1200: {
+                        items: 4,
+                        loop: true,
+                    },
+                },
+            })
+        </script>
+    </body>
 </html>
